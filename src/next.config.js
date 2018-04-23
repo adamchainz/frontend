@@ -24,7 +24,7 @@ module.exports = {
     ,
       {
         test: /\.css$/,
-        use: ['babel-loader', 'raw-loader', 'postcss-loader']
+        use: ['babel-loader', 'raw-loader']
       }
     ,
       {
@@ -44,7 +44,7 @@ module.exports = {
     ,
       {
         test: /\.s(a|c)ss$/,
-        use: ['babel-loader', 'raw-loader', 'postcss-loader',
+        use: ['babel-loader', 'raw-loader',
           { loader: 'sass-loader',
             options: {
               includePaths: ['styles', 'node_modules']
