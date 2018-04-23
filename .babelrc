@@ -9,6 +9,7 @@
   ],
   "plugins": [
     "transform-css-import-to-string",
+    "styled-jsx/babel",
     ["module-resolver", {
       "root": ["."],
       "alias": {
