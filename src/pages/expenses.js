@@ -88,9 +88,9 @@ class ExpensesPage extends React.Component {
           @media(max-width: 600px) {
             .columns {
               flex-direction: column-reverse;
-              .col {
-                max-width: 100%;
-              }
+            }
+            .columns .col {
+              max-width: 100%;
             }
           }
         `}</style>
